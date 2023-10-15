@@ -1,0 +1,23 @@
+{
+    "name": "greenchain",
+    "version": "1.0.0",
+    "description": "A platform to validate and verify the sustainability and ethical practices of products using Solana blockchain.",
+    "main": "server/index.js",
+    "scripts": {
+      "start": "node server/index.js",
+      "dev": "nodemon server/index.js",
+      "client": "cd public && npm start"
+    },
+    "author": "Jan Hermann",
+    "dependencies": {
+      "express": "^4.17.1",
+      "@solana/web3.js": "^1.30.2",
+      "react": "^17.0.2",
+      "react-dom": "^17.0.2",
+      "react-router-dom": "^5.2.1"
+    },
+    "devDependencies": {
+      "nodemon": "^2.0.15"
+    }
+  }
+  
